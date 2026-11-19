@@ -1,0 +1,12 @@
+node_modules/
+.angular/
+dist/
+build/
+target/
+.idea/
+.vscode/
+*.iml
+planeja-api/data/
+*.db
+.env
+.env.*
