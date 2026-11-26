@@ -1,6 +1,6 @@
 package com.github.gnmmoraes.planeja.dominio.lancamento;
 
-import com.github.gnmmoraes.planeja.common.RegistroNaoEncontradoException;
+import com.github.gnmmoraes.planeja.common.exceptions.RegistroNaoEncontradoException;
 import com.github.gnmmoraes.planeja.common.exceptions.ValidationException;
 import com.github.gnmmoraes.planeja.dominio.cartao.CartaoRepository;
 import com.github.gnmmoraes.planeja.dominio.cartao.model.CartaoEntity;

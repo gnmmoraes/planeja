@@ -1,4 +1,4 @@
-package com.github.gnmmoraes.planeja.common;
+package com.github.gnmmoraes.planeja.common.exceptions;
 
 public class RegistroNaoEncontradoException extends RuntimeException {
 
