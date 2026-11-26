@@ -1,6 +1,6 @@
 package com.github.gnmmoraes.planeja.dominio.categoria;
 
-import com.github.gnmmoraes.planeja.common.RegistroNaoEncontradoException;
+import com.github.gnmmoraes.planeja.common.exceptions.RegistroNaoEncontradoException;
 import com.github.gnmmoraes.planeja.common.exceptions.ValidationException;
 import com.github.gnmmoraes.planeja.common.validation.ValidationResult;
 import com.github.gnmmoraes.planeja.dominio.categoria.dto.CategoriaDetalhes;
