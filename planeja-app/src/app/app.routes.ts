@@ -7,11 +7,21 @@ import { CadastroCategorias } from './categorias/cadastro-categoria/cadastro-cat
 import { CadastroLancamento } from './lancamentos/cadastro-lancamento/cadastro-lancamento';
 import { ListagemLancamentos } from './lancamentos/listagem-lancamentos/listagem-lancamentos';
 import { DashboardPage } from './dashboard/dashboard-page/dashboard-page';
+import { Login } from './auth/login/login';
 
 
 
 
 export const routes: Routes = [
+  {
+    path: 'login',
+    component: Login
+  },
+  {
+    path: '',
+    redirectTo: 'login',
+    pathMatch: 'full'
+  },
 
   {
     path: 'paginas',
